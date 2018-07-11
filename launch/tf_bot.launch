@@ -1,0 +1,8 @@
+<!-- Starts up everything needed to run the example listener/talker Python nodes. -->
+
+<launch>
+  <node pkg="tf_bot" type="tf_bot.py" name="tf_bot">
+    <param name="rate" value="20"/>
+  </node>
+
+</launch>
